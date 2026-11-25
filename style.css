@@ -1,0 +1,40 @@
+
+#task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 300px;
+  background-color: #ade5ed; 
+  padding: 18px;             
+  border-radius: 6px;        
+  box-sizing: border-box;    
+}
+  .filter-row{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.filter-row label {
+  flex: 0 0 130px;
+}
+.filter-row select {
+  width: 160px;
+}
+label[for="category-filter"] {
+  color: #0f1117;
+  font-weight: bold;}
+  label[for="status-filter"] {
+  color: #0f1117;
+  font-weight: bold;
+}
+#category-filter {
+  background-color: #ade5ed;
+}
+#status-filter {
+  background-color: #ade5ed;
+}
+#task-list{
+   font-weight: Bold;
+    background-color: #ade5ed
+}
+
